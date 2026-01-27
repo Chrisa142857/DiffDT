@@ -1,0 +1,86 @@
+Initializing Qwen3 model...
+Initializing Qwen3 model...
+Initializing Qwen3 model...
+Initializing Qwen3 model...
+Trainable Parameters: 128,623,104
+
+Trainable Parameters: 128,623,104
+Trainable Parameters: 128,623,104
+Trainable Parameters: 128,623,104
+Starting training...
+Starting training...
+Starting training...
+Starting training...
+Warning: The cache directory for DeepSpeed Triton autotune, /export_home/ziquanw/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /export_home/ziquanw/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /export_home/ziquanw/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.Warning: The cache directory for DeepSpeed Triton autotune, /export_home/ziquanw/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+
+[2026-01-08 18:34:25.053747] Epoch 1 | LR: 0.000100 | Train: 1.52833 | Val: 0.44598
+[2026-01-08 18:40:21.669492] Epoch 2 | LR: 0.000100 | Train: 0.53857 | Val: 0.39835
+[2026-01-08 18:45:59.983585] Epoch 3 | LR: 0.000100 | Train: 0.51538 | Val: 0.39896
+[2026-01-08 18:51:52.648402] Epoch 4 | LR: 0.000100 | Train: 0.49322 | Val: 0.36861
+[2026-01-08 18:57:32.714497] Epoch 5 | LR: 0.000100 | Train: 0.46401 | Val: 0.35059
+[2026-01-08 19:03:10.114948] Epoch 6 | LR: 0.000100 | Train: 0.44232 | Val: 0.33687
+[2026-01-08 19:08:44.577021] Epoch 7 | LR: 0.000099 | Train: 0.42686 | Val: 0.32704
+[2026-01-08 19:14:18.389985] Epoch 8 | LR: 0.000099 | Train: 0.41722 | Val: 0.31905
+[2026-01-08 19:19:51.383254] Epoch 9 | LR: 0.000099 | Train: 0.40788 | Val: 0.31411
+[2026-01-08 19:25:24.782246] Epoch 10 | LR: 0.000099 | Train: 0.40207 | Val: 0.31039
+[2026-01-08 19:30:59.748133] Epoch 11 | LR: 0.000098 | Train: 0.39635 | Val: 0.30626
+[2026-01-08 19:36:34.804532] Epoch 12 | LR: 0.000098 | Train: 0.39390 | Val: 0.30429
+[2026-01-08 19:42:07.407004] Epoch 13 | LR: 0.000098 | Train: 0.38937 | Val: 0.30221
+[2026-01-08 19:47:37.283883] Epoch 14 | LR: 0.000097 | Train: 0.38420 | Val: 0.29992
+[2026-01-08 19:53:11.823903] Epoch 15 | LR: 0.000097 | Train: 0.38238 | Val: 0.29837
+[2026-01-08 19:58:48.607368] Epoch 16 | LR: 0.000096 | Train: 0.38165 | Val: 0.29897
+[2026-01-08 20:04:28.387753] Epoch 17 | LR: 0.000096 | Train: 0.37936 | Val: 0.29854
+[2026-01-08 20:10:15.373577] Epoch 18 | LR: 0.000095 | Train: 0.37691 | Val: 0.29466
+[2026-01-08 20:15:58.837707] Epoch 19 | LR: 0.000095 | Train: 0.37731 | Val: 0.29416
+[2026-01-08 20:21:35.790898] Epoch 20 | LR: 0.000094 | Train: 0.37674 | Val: 0.29335
+[2026-01-08 20:27:19.614794] Epoch 21 | LR: 0.000093 | Train: 0.37294 | Val: 0.29262
+[2026-01-08 20:33:08.352257] Epoch 22 | LR: 0.000093 | Train: 0.37345 | Val: 0.29181
+[2026-01-08 20:38:54.430584] Epoch 23 | LR: 0.000092 | Train: 0.37229 | Val: 0.29207
+[2026-01-08 20:44:42.521983] Epoch 24 | LR: 0.000091 | Train: 0.36948 | Val: 0.29089
+[2026-01-08 20:50:27.640239] Epoch 25 | LR: 0.000091 | Train: 0.36889 | Val: 0.29047
+[2026-01-08 20:56:13.367224] Epoch 26 | LR: 0.000090 | Train: 0.36919 | Val: 0.29103
+[2026-01-08 21:01:57.955500] Epoch 27 | LR: 0.000089 | Train: 0.36848 | Val: 0.28951
+[2026-01-08 21:07:43.486178] Epoch 28 | LR: 0.000088 | Train: 0.36869 | Val: 0.28962
+[2026-01-08 21:13:19.111658] Epoch 29 | LR: 0.000088 | Train: 0.36566 | Val: 0.28863
+[2026-01-08 21:18:55.790088] Epoch 30 | LR: 0.000087 | Train: 0.36699 | Val: 0.28895
+[2026-01-08 21:24:34.337113] Epoch 31 | LR: 0.000086 | Train: 0.36514 | Val: 0.28765
+[2026-01-08 21:30:12.446820] Epoch 32 | LR: 0.000085 | Train: 0.36600 | Val: 0.28808
+[2026-01-08 21:35:49.793900] Epoch 33 | LR: 0.000084 | Train: 0.36384 | Val: 0.28817
+[2026-01-08 21:41:27.016526] Epoch 34 | LR: 0.000083 | Train: 0.36309 | Val: 0.28732
+[2026-01-08 21:47:03.893762] Epoch 35 | LR: 0.000082 | Train: 0.36218 | Val: 0.28673
+[2026-01-08 21:52:37.876023] Epoch 36 | LR: 0.000081 | Train: 0.36217 | Val: 0.28659
+[2026-01-08 21:58:14.803343] Epoch 37 | LR: 0.000080 | Train: 0.36100 | Val: 0.28759
+[2026-01-08 22:03:51.983231] Epoch 38 | LR: 0.000079 | Train: 0.35996 | Val: 0.28677
+[2026-01-08 22:09:30.846072] Epoch 39 | LR: 0.000078 | Train: 0.36172 | Val: 0.28641
+[2026-01-08 22:15:05.972667] Epoch 40 | LR: 0.000077 | Train: 0.36034 | Val: 0.28609
+[2026-01-08 22:20:39.770903] Epoch 41 | LR: 0.000076 | Train: 0.35855 | Val: 0.28609
+[2026-01-08 22:26:11.922021] Epoch 42 | LR: 0.000075 | Train: 0.35951 | Val: 0.28593
+[2026-01-08 22:31:46.257229] Epoch 43 | LR: 0.000074 | Train: 0.35754 | Val: 0.28599
+[2026-01-08 22:37:22.814320] Epoch 44 | LR: 0.000073 | Train: 0.36069 | Val: 0.28546
+[2026-01-08 22:42:54.265841] Epoch 45 | LR: 0.000072 | Train: 0.35777 | Val: 0.28506
+[2026-01-08 22:48:31.762636] Epoch 46 | LR: 0.000070 | Train: 0.35789 | Val: 0.28533
+[2026-01-08 22:54:03.622207] Epoch 47 | LR: 0.000069 | Train: 0.35693 | Val: 0.28558
+[2026-01-08 22:59:34.105137] Epoch 48 | LR: 0.000068 | Train: 0.35627 | Val: 0.28476
+[2026-01-08 23:04:54.886721] Epoch 49 | LR: 0.000067 | Train: 0.35764 | Val: 0.28493
+[2026-01-08 23:10:33.068131] Epoch 50 | LR: 0.000066 | Train: 0.35466 | Val: 0.28495
+[2026-01-08 23:16:09.032778] Epoch 51 | LR: 0.000065 | Train: 0.35326 | Val: 0.28493
+[2026-01-08 23:21:43.336181] Epoch 52 | LR: 0.000063 | Train: 0.35596 | Val: 0.28460
+[2026-01-08 23:27:25.755586] Epoch 53 | LR: 0.000062 | Train: 0.35381 | Val: 0.28504
+[2026-01-08 23:33:10.880586] Epoch 54 | LR: 0.000061 | Train: 0.35379 | Val: 0.28503
+[2026-01-08 23:38:56.435684] Epoch 55 | LR: 0.000060 | Train: 0.35316 | Val: 0.28519
+[2026-01-08 23:44:46.974860] Epoch 56 | LR: 0.000058 | Train: 0.35326 | Val: 0.28491
+[2026-01-08 23:50:31.320746] Epoch 57 | LR: 0.000057 | Train: 0.35286 | Val: 0.28504
+[2026-01-08 23:56:11.542218] Epoch 58 | LR: 0.000056 | Train: 0.35067 | Val: 0.28499
+[2026-01-09 00:01:53.383957] Epoch 59 | LR: 0.000055 | Train: 0.35097 | Val: 0.28518
+[2026-01-09 00:07:37.266814] Epoch 60 | LR: 0.000053 | Train: 0.35005 | Val: 0.28543
+[2026-01-09 00:13:24.319691] Epoch 61 | LR: 0.000052 | Train: 0.34725 | Val: 0.28494
+[2026-01-09 00:19:05.551957] Epoch 62 | LR: 0.000051 | Train: 0.34907 | Val: 0.28523
+Training finished.Early stopping triggered.
+
+Training finished.
+Training finished.Training finished.
+
+Saving best model from CPU RAM to disk...
+Model saved to ./icd10_tokenizer_posid/qwen-icd10-complete/best_model
