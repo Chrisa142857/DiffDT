@@ -120,7 +120,7 @@ class ICDFCDataset(Dataset):
             
         # assert not use_latents, 'Not implemented'
         
-        data = pd.read_pickle('/ram/USERS/ziquanw/brain_env_ukb/data/ukb-nimg_icd10_dated.pkl')
+        data = pd.read_pickle('../brain_env_ukb/data/ukb-nimg_icd10_dated.pkl')
         vocab_grouped = []
         vocab = []
         for icd in data['ICD10']:
@@ -135,9 +135,9 @@ class ICDFCDataset(Dataset):
         self.beh_book = np.unique(np.concatenate([x.reshape(-1) for x in data['FC_beh'] if not isinstance(x, float)])).tolist()
         print(self.beh_book)
         if split == 'train':
-            split_data = np.memmap('/ram/USERS/ziquanw/brain_env_ukb/data/delphi_train.bin', dtype=np.uint32, mode='r').reshape(-1, 3) 
+            split_data = np.memmap('../brain_env_ukb/data/delphi_train.bin', dtype=np.uint32, mode='r').reshape(-1, 3) 
         else:
-            split_data = np.memmap('/ram/USERS/ziquanw/brain_env_ukb/data/delphi_val.bin', dtype=np.uint32, mode='r').reshape(-1, 3)
+            split_data = np.memmap('../brain_env_ukb/data/delphi_val.bin', dtype=np.uint32, mode='r').reshape(-1, 3)
         nan_pid = data.index[data['FC'].isna()].tolist()
         seqstep = 20
         self.image_names = []
@@ -299,7 +299,7 @@ class FCICDDataset(Dataset):
             
         assert not use_latents, 'Not implemented'
         
-        data = pd.read_pickle('/ram/USERS/ziquanw/brain_env_ukb/data/ukb-nimg_icd10_dated.pkl')
+        data = pd.read_pickle('../brain_env_ukb/data/ukb-nimg_icd10_dated.pkl')
         vocab_grouped = []
         vocab = []
         for icd in data['ICD10']:
@@ -313,9 +313,9 @@ class FCICDDataset(Dataset):
         data['FC_beh'] = data['FC_name'].map(lambda x: np.array([xi.split('_')[2].split('-')[1] for xi in x] if isinstance(x, list) else np.nan))
         
         if split == 'train':
-            split_data = np.memmap('/ram/USERS/ziquanw/brain_env_ukb/data/delphi_train.bin', dtype=np.uint32, mode='r').reshape(-1, 3) 
+            split_data = np.memmap('../brain_env_ukb/data/delphi_train.bin', dtype=np.uint32, mode='r').reshape(-1, 3) 
         else:
-            split_data = np.memmap('/ram/USERS/ziquanw/brain_env_ukb/data/delphi_val.bin', dtype=np.uint32, mode='r').reshape(-1, 3)
+            split_data = np.memmap('../brain_env_ukb/data/delphi_val.bin', dtype=np.uint32, mode='r').reshape(-1, 3)
         nan_pid = data.index[data['FC'].isna()].tolist()
         self.texts = []
         self.images = []
