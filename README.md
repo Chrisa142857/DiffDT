@@ -1,8 +1,8 @@
-## Anonymous github for DiffDT.
+## Official github for DiffDT.
 
 Please check `examples.ipynb` for an example usage of DiffDT-Brain.
 
-Code organizing will be done with the paper acceptance.
+Code organizing will be done in the future.
 
 ### Acknowledgements
 
